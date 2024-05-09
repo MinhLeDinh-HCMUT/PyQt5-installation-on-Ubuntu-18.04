@@ -28,6 +28,7 @@ The device that this script is used is _Nvida Jetson Nano Developer Kit B01_.
   If installing SIP with PIP does not work for your device, you can install them from source:
   - Download SIP from here: https://riverbankcomputing.com/software/sip/download
   - Run the following command lines to install the downloaded files:
+
     ```$ python configure.py ```
     
     ```$ make```
