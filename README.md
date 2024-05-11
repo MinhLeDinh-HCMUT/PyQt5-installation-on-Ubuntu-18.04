@@ -5,7 +5,7 @@ The device that this script is used is _Nvida Jetson Nano Developer Kit B01_.
 - Ubuntu 18.04
 - Default Python version: 3.6.8
 ## Problems
-- In a project where I need to use PyQt5 to desin a GUI, it seems that commands like ```$ apt-get``` or ```$ pip install``` cannot be used to install PyQt5. After a while of researching, I found out that this method of installation is also not working with many ARM64 architecture devices, such as Nvidia Jetson Nano in my case.
+- In a project where I need to use PyQt5 to design a GUI, it seems that commands like ```$ apt-get``` or ```$ pip install``` cannot be used to install PyQt5. After a while of researching, I found out that this method of installation is also not working with many ARM64 architecture devices, such as Nvidia Jetson Nano in my case.
 - To overcome this problem, the solution is to build it from source. When I try this new approach, to my surprise, it works perfectly fine :D
 - That is the reason why I want to share this method with whoever needs it, hopes that it works well with your device!
 ## Procedure
