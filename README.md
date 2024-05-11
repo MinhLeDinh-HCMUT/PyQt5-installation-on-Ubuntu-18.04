@@ -9,9 +9,9 @@ The device that this script is used is _Nvida Jetson Nano Developer Kit B01_.
 - To overcome this problem, the solution is to build it from source. When I try this new approach, to my surprise, it works perfectly fine :D
 - That is the reason why I want to share this method with whoever needs it, hopes that it works well with your device!
 ## Procedure
-- As PyQt5 requires Python 3.7 or later, makes sure that your device meets this requirement. For me, as I also need to works with other librarys that need high Python version, I will use the Python version 3.11.
-- With Jetpack 4.6 and Ubuntu 18.04, it is not possible to install Python version 3.8 and above directly, so I will use the virtual enviroment instead. A tutorial on how to install Python with virtual enviroment by Jetson Hacks can be found here: https://www.youtube.com/watch?v=LSdXakt8nZ8
-- Keep the packages up-to-date:
+- As PyQt5 requires Python 3.7 or later, makes sure that your device meets this requirement. For me, as I also need to works with other libraries that need higher Python version, I will use the Python version 3.11.
+- With Jetpack 4.6 and Ubuntu 18.04, it is not possible to install Python version 3.8 and above directly, so I will use the virtual environment instead. A tutorial on how to install Python with virtual environment by Jetson Hacks can be found here: https://www.youtube.com/watch?v=LSdXakt8nZ8
+- First, keep the packages up-to-date:
 
   ```$ sudo apt-get update```
 
@@ -21,7 +21,7 @@ The device that this script is used is _Nvida Jetson Nano Developer Kit B01_.
   
   ```$ sudo apt-get install build-essential python3-dev python3-pip python3-pyqt5.qtsvg python3-pyqt5.qtwebkit```
 
-- Install SIP:
+- Install SIP for PyQT5:
 
   ```$ pip install PyQt5-sip```
 
